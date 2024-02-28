@@ -2,7 +2,7 @@
 <html>
      
 <head>
-    <link rel="stylesheet" href="ecosolarstyle.css"/>
+    <link rel="stylesheet" href="https://github.com/Sifa9999/ecosolar-webpages/blob/main/CSS"/>
     <meta charset="UTF-8" />
     <title>EcoSolar Innovations</title>
    
