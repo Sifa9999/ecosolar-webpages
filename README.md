@@ -1,1 +1,51 @@
-
+<!DOCTYPE html>
+<html>
+     
+<head>
+    <link rel="stylesheet" href="ecosolarstyle.css"/>
+    <meta charset="UTF-8" />
+    <title>EcoSolar Innovations</title>
+   
+</head>
+<body>
+  <h1 id="title">EcoSolar Survey Form</h1>  
+  <p>Thank you for taking the time to improve our services</p>
+  <form id="survey">
+  <label for="name">Name : 
+    <input id="name" placeholder="Enter your name"/></label>
+  <label for="email">E-mail : 
+    <input id="email" placeholder="Enter your email"/></label>
+  <label for="age">Age : 
+    <input id="age" placeholder="Age"/></label>
+  <label for="role">Which option best describes your current role? 
+    <select id="role" type="select">
+      <option value="" disabled selected>Select current role</option>
+    <option>Staff</option>
+    <option>Client</option>
+    <option>Guest</option>
+  </select>
+</label>
+Would you recommend EcoSolar to a friend? 
+<div class="definitely"><input id="definitely" type="radio"/><label for="definitely">Definitely</label></div>
+<div class="maybe"><input id="maybe" type="radio"/><label for="maybe">Maybe</label></div>
+<div class="not-sure"><input id="not-sure" type="radio"/><label for="not-sure">Not sure</label></div>
+<label for="favourite">What is your favourite Ecosolar product/service?<select id="role" type="select">
+  <option value="" disabled selected>Select option</option>
+<option>Solar Panels 300x200</option>
+<option>Installation services</option>
+<option>AC converters</option>
+<option>Solar Battery</option>
+</select></label>
+<label for="improvement">What would you like to see improved?(Check all that apply)
+  <div class="customer"><input type="checkbox" id="customer-service"/><label for="customer-service">Customer Service</label></div>
+  <div class="product"><input type="checkbox" id="product-quality"/><label for="product-quality">Product Quality</label></div>
+  <div class="user"><input type="checkbox" id="user-interface"/><label for="user-interface">User Interface</label></div>
+  <div class="after"><input type="checkbox" id="after-sale"/><label for="after-sale">After-Sale Services</label></div>
+  <div class="communication"><input type="checkbox" id="communication"/><label for="communication">Communication (emails, contacts)</label>
+</label></div>
+<label for="comments">Any comments or suggestions?</label><textarea id="comments" rows="4" cols="60" placeholder="Enter your comment here..."></textarea>
+<input type="button" id="submit" value="Submit"/>
+</form>
+</body>
+</body>
+</html>
